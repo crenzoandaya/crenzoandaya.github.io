@@ -29,6 +29,20 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
+:root{
+    --fs-400: 1rem;
+}
+
+@media (min-width: 60em){
+    :root {
+        --fs-400: 1.5rem;
+    }
+}
+
+li{
+    font-size: var(--fs-400);
+}
+
 a {
 
     text-decoration: none;
@@ -39,6 +53,8 @@ a:hover {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+
 
 .display-1{
     font-family: 'Sora','sans-serif';
@@ -139,9 +155,6 @@ h3{
     color: #89d2ec;
 }
 
-li{
-    font-size: 20px;
-}
 
 .bg-proj{
     background: #16202d;
