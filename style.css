@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+a:hover {
+    
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.display-1{
+    font-family: 'Sora','sans-serif';
+    font-weight: 600;
+}
+h3{
+    font-family: 'Sora','sans-serif';
+    font-weight: 600;
+}
+
+
+body {
+	line-height: 1;
+    background: #16202D;
+    font-family: 'Montserrat','sans-serif';
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.border{
+    box-shadow: 0 0 5px 8px rgba(0,0,0,0.3);
+}
+
+nav{
+    background: #16202D;
+    transition: all 500ms ease;
+    box-shadow: 0 16px 14px -8px rgba(0,0,0,0.3);
+    z-index: 100;
+}
+/*
+nav.scrolled{
+    background: #16202D;
+    box-shadow: 0 16px 14px -8px rgba(0,0,0,0.3);
+    border-radius: 0 0 8px 8px;
+    top: 0;
+    padding: 0px;
+    width:100%;
+}
+*/
+
+nav.hidden{
+    transform: translateY(-100%);
+}
+
+span{
+    color: #3ebdf3 !important; 
+}
+.txt-primary{
+        
+    color: #3ebdf3 !important;
+}
+
+.txt-secondary{
+    color: #999999 !important;
+}
+
+h1{
+    /*font-size: 40px;*/
+}
+
+.py-96{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.second-bg{
+    background:#101013;
+}
+h2{
+    /*font-size: 3.75rem;*/
+    text-transform: uppercase;
+}
+h3{
+   /* font-size: 20px*/
+}
+
+.btn{
+    background: #0198CF;
+    font-family: 'Montserrat','sans-serif';
+    font-weight: 700;
+}
+
+.btn:hover{
+    background: #03668a;
+    color: #89d2ec;
+}
+
+li{
+    font-size: 20px;
+}
+
+.bg-proj{
+    background: #16202d;
+}
+
+.customForm{
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-label{
+    font-weight: 500;
+}
+
+.italic{
+    font-style: italic;
+}
+
+p{
+    line-height: 1.5;
+}
